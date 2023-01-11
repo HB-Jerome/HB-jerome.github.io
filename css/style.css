@@ -1,0 +1,62 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em; /* px pt % em rem vw vh*/
+    background: rgb(105, 103, 101) url(../img/canyon.jpg) no-repeat top center fixed;
+    background-size: cover;
+    /* MANIERE PLUS LONGUE
+    background-image: url(../img/canyon.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    background-attachment: fixed;
+    */ 
+}
+
+address {margin:2em}
+
+#mamie {border-radius: 500px;}
+
+section {padding:1em; margin:1em}
+ 
+#section1 {border-radius: 20px; background: rgb(180, 180, 180);
+}
+
+#section2 {border-radius: 20px; background: rgb(70, 69, 67)}
+
+#section3 {border-radius: 20px; background: rgb(122, 122, 122)}
+
+#section4 {border-radius: 20px; background: rgb(75, 75, 75)}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+
+h1{
+    color: rgb(206, 206, 206);
+    text-align: center; /* left / right / center / justify */
+    font-style: italic;
+    text-decoration: lime 10px;
+}
+
+p{
+    font-weight: bold; /* en gras*/
+    
+}
+#salutation{
+    background-color: rgba(255, 250, 205, 0.65);
+    text-align: justify;
+    border: 4px solid lime;
+    border-radius: 10px;
+    padding: 10px 20px;/*Bordure intérieure haut/bas + gauche/droite */
+    margin: auto; /* marge extérieur*/
+    width: 60%;
+    overflow: auto; /* Gestion du contenu qui dépasse des bordures*/
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.5);
+    
+}
+
+/* NOUVELLE MANIERE DE PRENDRE LA TAILLE DE CHAQUE BOX EN COMPTE box-sizing : border-box(padding + border)*/ 
